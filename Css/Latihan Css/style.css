@@ -1,0 +1,118 @@
+/* header */
+.container-header{
+    display: flex;
+    background-color: blanchedalmond;
+    padding: 8px;
+}
+.cover img{
+    height: 100px;
+    width: 120px;
+    padding: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.header{
+    font-size: 13px;
+    padding:5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+/* Nav-bar */
+.nav{
+    background-color:blanchedalmond;
+    margin-top: 5px;
+    padding: 5px;
+}
+.navbar-item{
+    display: inline-block;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color:rgba(231, 69, 5, 0.805);
+    font-weight: bold;
+    font-size:17px;
+}
+.navbar-item a:hover{
+    color:rgba(29, 29, 29, 0.831);
+}
+/* Konten */
+.konten{
+    width: 60%;
+    margin: auto;
+}
+.konten h2{
+    background-color:rgba(94, 94, 105, 0.804);
+    font-size: 30px;
+    font-family: tahoma;
+}
+.konten p{
+    font-size: 18px;
+    text-align: justify;
+}
+/* Product */
+.table{
+    margin-left: auto;
+    margin-right: auto;
+}
+ul+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+td>img{
+    width: 150px;
+    height:90px;
+    border: 2px solid black;
+}
+.row-header{
+    background-color: beige;
+}
+.row-header th{
+    padding: 10px;
+    text-align: center;
+}
+.row-konten{
+    background-color:rgba(189, 183, 107,0.3);
+}
+.row-konten:hover{
+    background-color: burlywood;
+}
+.genap{
+    background-color: bisque;
+}
+.row-konten td{
+    padding: 10px;
+}
+/* Purchase Form */
+.form-group{
+    margin-top:10px;
+}
+.form-group label{
+    color:darkgrey;
+    display: block;
+}
+.form-group input{
+    width: 30%;
+}
+.form-group textarea{
+    display: block;
+    margin-top:5px;
+    height:150px;
+    width: 30%;;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(116, 120, 120);
+    border:0px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(25, 25, 25);
+}

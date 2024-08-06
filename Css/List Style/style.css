@@ -1,0 +1,11 @@
+*{
+    font-family:arial;
+}
+h1{
+    font-size: 25px;
+    color: crimson;
+}
+ol li{
+    margin:10px;
+    list-style:lower-greek /*inside*/;
+}

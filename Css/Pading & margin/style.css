@@ -1,0 +1,21 @@
+.border{
+    border : 2px solid brown;
+    text-align: center;
+}
+h1{
+    font-size: 25px;
+    width: 200px;
+    height: 60px;
+}
+.padding1{
+    background-color:brown;
+    padding: 20px 15px /*atas bawah - kiri kanan */
+}
+.padding2{
+    background-color: rgb(112, 233, 20);
+    padding: 20px 15px 5px /*atas -kiri kanan - kanan */
+}
+.padding3{
+    background-color: rgb(107, 6, 223);
+    padding: 20px 15px 10px 5px /*atas kanan bawah kiri */
+}

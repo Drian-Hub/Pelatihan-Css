@@ -1,0 +1,30 @@
+/* class selector */
+h1.h1pertama{
+    color:goldenrod;
+}
+/* idselector */
+#paraf1{
+    color:black
+}
+/* child selector */
+
+p>b /*(b yang ada didalam p) */ {
+    font-size:30px;
+}
+li>b {
+    font-size:42px;
+}
+/* decendant selector */
+
+p b /*semua b yang ada didalm p */ {
+    color:brown;
+}
+/* adjacent sibling selector */
+
+p+h2/*h2 setelah paragraf */{
+    color:magenta;
+}
+/* general sibling selector */
+br~ol /* semua ol setelah br */{
+    color:blueviolet;
+}

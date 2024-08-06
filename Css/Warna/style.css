@@ -1,0 +1,18 @@
+*{
+    font-family:'Segoe UI';
+}
+.ke1{
+    border:3px solid;
+    border-color:coral;
+    padding:5px;
+    background-color: grey;
+}
+.ke2{
+    border: 3px solid #e956e9;
+    background-color: hsl(42, 85%, 50%);
+}
+/* Hue = 0 - 360 */
+/* saturasi = 0 - 100% semakin tinggi angkanya semakin berwaran */
+/* lightness= 0 - 100% semakin tinggi semakin putih*/
+/* nilai alpha = 0 - 1 semakin tinggi semakin jelas */
+/* nilai rgb max=255 */

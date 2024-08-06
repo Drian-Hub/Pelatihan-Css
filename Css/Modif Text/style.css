@@ -1,0 +1,18 @@
+h1{
+    font-family:'Times New Roman';
+    font-weight:900;
+}
+.link{
+    text-decoration: none;
+    font-size: 50px;
+    color:black;
+}
+.link:hover{
+    color:chocolate;
+}
+.link:active{
+    color:lawngreen;
+}
+.link:visited{
+    color: cadetblue;
+}
